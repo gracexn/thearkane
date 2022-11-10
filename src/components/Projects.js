@@ -83,7 +83,7 @@ export const Projects = () => {
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>What's the point of ruling the world If they can't take care of weak ones.</p>
+                      <p>What's the point of ruling world If they can't take care of weak ones.</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
