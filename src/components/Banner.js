@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "NFT Launch", "Decentralization", "Glimpse of hope" ];
+  const toRotate = [ "NFT Membership", "Token Launch", "DAO" ];
   const period = 2000;
 
   useEffect(() => {
@@ -56,7 +56,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">The Arkane</span>
-                <h1>{`hi, we gon do`} <br/><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Currently developing`} <br/><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "NFT Membership", "Token Launch", "DAO" ]'><span className="wrap">{text}</span></span></h1>
                   <p> Official website of Project Arkane. Let's grow together  </p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
