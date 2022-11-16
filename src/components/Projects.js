@@ -21,8 +21,8 @@ export const Projects = () => {
       imgUrl: projImg2,
     },
     {
-      title: "NFT Collection",
-      description: "I dont know about it",
+      title: "New Financial system",
+      description: "Idea stage.. yeah",
       imgUrl: projImg3,
     },
     {
