@@ -55,7 +55,7 @@ export const NavBar = () => {
                 <a href="#"><img src={navIcon3} alt="Coming soon..." /></a>
               </div>
               <HashLink to='#'>
-                <button className="vvd"><span>Connect Wallet</span></button>
+                <button href="https://gateway.ipfscdn.io/ipfs/Qmcine1gpZUbQ73nk7ZGCcjKBVFYXrEtqrhujXk3HDQ6Nn/erc20.html?contract=0x04eAcE4c020d109f4CC55AB7E8C29B242e06615E&chainId=137&theme=dark" className="vvd"><span>Buy ARKC</span></button>
               </HashLink>
             </span>
           </Navbar.Collapse>
